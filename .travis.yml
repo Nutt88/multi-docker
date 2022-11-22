@@ -15,9 +15,9 @@ script:
 
 #after_success:
   - docker build -t nutt88/multi-client ./client
-  - docker built -t nutt88/multi-nginx ./nginx
-  - docker built -t nutt88/multi-server ./server
-  - docker built -t nutt88/multi-worker ./worker
+  - docker build -t nutt88/multi-nginx ./nginx
+  - docker build -t nutt88/multi-server ./server
+  - docker build -t nutt88/multi-worker ./worker
 
   #Log in to the docker cli
 
