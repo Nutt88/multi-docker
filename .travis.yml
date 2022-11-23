@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t nutt88/docker-test -f ./client/Dockerfile.dev ./client
+  - docker build -t nutt88/multi-docker -f Dockerfile.dev .
 
 
 #before_install:
